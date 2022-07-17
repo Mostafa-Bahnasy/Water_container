@@ -50,7 +50,7 @@ public class Main  {
          }
          // now print answer
          for(int i=0;i<answer.size();i++) {
-        	 System.out.println("1:\n"+"Volume: "+answer.get(i).vol +"\tRemining: "+answer.get(i).rem);
+        	 System.out.println((i+1)+":\n"+"Volume: "+answer.get(i).vol +"\tRemining: "+answer.get(i).rem);
          }
 	}
 
